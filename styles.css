@@ -1,0 +1,38 @@
+/* css variables */
+:root{
+  --primary-color:#3498db;
+  --secondary-color:#2ecc71;
+  --font-color:#333333;
+  --bg-color:#ba5555;
+  --font-family: 'Arial, sans-serif';
+  --heading-font-family: 'Helvetica, sans-serif';
+  --text-color: #fff
+}
+/* css reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body{
+  font-family: var(--font-family);
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--heading-font-family);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+ul, ol{
+  list-style: none;
+}

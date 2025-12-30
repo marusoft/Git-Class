@@ -21,3 +21,4 @@
 - `git checkout <branch>` - switch to a different branch
 - `git merge <branch>` - merge a branch into the current branch
 - `git rm --cached <file>` - to unstage a file
+- `git log` - view the commit history
